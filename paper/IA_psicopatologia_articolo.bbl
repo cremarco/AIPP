@@ -1,313 +1,238 @@
-\begin{thebibliography}{43}
+\begin{thebibliography}{34}
 \providecommand{\natexlab}[1]{#1}
-\providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
-  \providecommand{\doi}[1]{doi: #1}\else
-  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup \urlstyle{rm}\Url}\fi
+\providecommand{\selectlanguage}[1]{\relax}
+\providecommand{\bibAnnoteFile}[1]{%
+  \IfFileExists{#1}{\begin{quotation}\noindent\textsc{Key:} #1\\
+  \textsc{Annotation:}\ \input{#1}\end{quotation}}{}}
+\providecommand{\bibAnnote}[2]{%
+  \begin{quotation}\noindent\textsc{Key:} #1\\
+  \textsc{Annotation:}\ #2\end{quotation}}
 
-\bibitem[{U.S. Food and Drug Administration}(2025)]{fda-dhac}
-{U.S. Food and Drug Administration}.
-\newblock Executive summary for the digital health advisory committee meeting:
-  Generative artificial intelligence-enabled digital mental health medical
-  devices.
-\newblock \url{https://www.fda.gov/media/189391/download}, November 2025.
-\newblock Riunione del 6 novembre 2025.
+\bibitem[{Abr\`amoff et~al.(2018)Abr\`amoff, Lavin, Birch, Shah, and Folk}]{abramoff2018}
+Abr\`amoff, M.~D., Lavin, P.~T., Birch, M., Shah, N., and Folk, J.~C. (2018).
+\newblock Pivotal trial of an autonomous {AI}-based diagnostic system for detection of diabetic retinopathy in primary care offices.
+\newblock \emph{npj Digital Medicine} 1, 39.
+\newblock \doi{10.1038/s41746-018-0040-6}
+\bibAnnoteFile{abramoff2018}
 
-\bibitem[{World Health Organization}(2024)]{who2024}
-{World Health Organization}.
-\newblock Ethics and governance of artificial intelligence for health: Guidance
-  on large multi-modal models.
-\newblock \url{https://www.who.int/publications/i/item/9789240084759}, 2024.
+\bibitem[{Adams et~al.(2022)Adams, Henry, Sridharan et~al.}]{adams2022}
+Adams, R., Henry, K.~E., Sridharan, A., et~al. (2022).
+\newblock Prospective, multi-site study of patient outcomes after implementation of the {TREWS} machine learning-based early warning system for sepsis.
+\newblock \emph{Nature Medicine} 28, 1455--1460.
+\newblock \doi{10.1038/s41591-022-01894-0}
+\bibAnnoteFile{adams2022}
 
-\bibitem[Grabb et~al.(2024)Grabb, Lamparth, and Vasan]{grabb2024}
-Declan Grabb, Max Lamparth, and Nina Vasan.
-\newblock Risks from language models for automated mental healthcare: Ethics
-  and structure for implementation, 2024.
-\newblock Preprint.
+\bibitem[{Bordin(1979)}]{bordin1979}
+Bordin, E.~S. (1979).
+\newblock The generalizability of the psychoanalytic concept of the working alliance.
+\newblock \emph{Psychotherapy: Theory, Research \& Practice} 16, 252--260.
+\newblock \doi{10.1037/h0085885}
+\bibAnnoteFile{bordin1979}
 
-\bibitem[Dohn\'any et~al.(2025)]{dohnany2025}
-Sebastian Dohn\'any et~al.
-\newblock Technological folie \`a deux: Feedback loops between {AI} chatbots
-  and mental illness, 2025.
-\newblock Preprint.
+\bibitem[{Dohn{\'a}ny et~al.(2026)Dohn{\'a}ny, Kurth-Nelson, Spens, Luettgau, Reid, Gabriel et~al.}]{dohnany2026}
+Dohn{\'a}ny, S., Kurth-Nelson, Z., Spens, E., Luettgau, L., Reid, A., Gabriel, I., et~al. (2026).
+\newblock Technological folie {\`a} deux: Feedback loops between {AI} chatbots and mental illness.
+\newblock \emph{Nature Mental Health} \doi{10.48550/arXiv.2507.19218}.
+\newblock Also available as arXiv:2507.19218
+\bibAnnoteFile{dohnany2026}
 
-\bibitem[Ribeiro et~al.(2020)Ribeiro, Ribeiro, Paix\~ao, et~al.]{ribeiro2020}
-Ant\^onio~H. Ribeiro, Manoel~Horta Ribeiro, Gabriela M.~M. Paix\~ao, et~al.
-\newblock Automatic diagnosis of the 12-lead {ECG} using a deep neural network.
-\newblock \emph{Nature Communications}, 11:\penalty0 1760, 2020.
-\newblock \doi{10.1038/s41467-020-15432-4}.
+\bibitem[{Finn(2007)}]{finn2007}
+Finn, S.~E. (2007).
+\newblock \emph{In Our Clients' Shoes: Theory and Techniques of Therapeutic Assessment} (Mahwah, NJ: Lawrence Erlbaum Associates)
+\bibAnnoteFile{finn2007}
 
-\bibitem[Yao et~al.(2021)Yao, Rushlow, Inselman, et~al.]{yao2021}
-Xiaoxi Yao, David~R. Rushlow, Jonathan~W. Inselman, et~al.
-\newblock Artificial intelligence-enabled electrocardiograms for identification
-  of patients with low ejection fraction: A pragmatic, randomized clinical
-  trial.
-\newblock \emph{Nature Medicine}, 27:\penalty0 815--819, 2021.
-\newblock \doi{10.1038/s41591-021-01335-4}.
+\bibitem[{Finn et~al.(2012)Finn, Fischer, and Handler}]{finn2012}
+Finn, S.~E., Fischer, C.~T., and Handler, L. (eds.) (2012).
+\newblock \emph{Collaborative/Therapeutic Assessment: A Casebook and Guide} (Hoboken, NJ: Wiley)
+\bibAnnoteFile{finn2012}
 
-\bibitem[Toma\v{s}ev et~al.(2019)Toma\v{s}ev, Glorot, Rae, et~al.]{tomasev2019}
-Nenad Toma\v{s}ev, Xavier Glorot, Jack~W. Rae, et~al.
-\newblock A clinically applicable approach to continuous prediction of future
-  acute kidney injury.
-\newblock \emph{Nature}, 572:\penalty0 116--119, 2019.
-\newblock \doi{10.1038/s41586-019-1390-1}.
+\bibitem[{Fitzpatrick et~al.(2017)Fitzpatrick, Darcy, and Vierhile}]{fitzpatrick2017}
+Fitzpatrick, K.~K., Darcy, A., and Vierhile, M. (2017).
+\newblock Delivering cognitive behavior therapy to young adults with symptoms of depression and anxiety using a fully automated conversational agent ({Woebot}): A randomized controlled trial.
+\newblock \emph{JMIR Mental Health} 4, e19.
+\newblock \doi{10.2196/mental.7785}
+\bibAnnoteFile{fitzpatrick2017}
 
-\bibitem[Adams et~al.(2022)Adams, Henry, Sridharan, et~al.]{adams2022}
-Roy Adams, Katharine~E. Henry, Anirudh Sridharan, et~al.
-\newblock Prospective, multi-site study of patient outcomes after
-  implementation of the {TREWS} machine learning-based early warning system for
-  sepsis.
-\newblock \emph{Nature Medicine}, 28:\penalty0 1455--1460, 2022.
-\newblock \doi{10.1038/s41591-022-01894-0}.
+\bibitem[{Fl{\"u}ckiger et~al.(2018)Fl{\"u}ckiger, Del~Re, Wampold, and Horvath}]{fluckiger2018}
+Fl{\"u}ckiger, C., Del~Re, A.~C., Wampold, B.~E., and Horvath, A.~O. (2018).
+\newblock The alliance in adult psychotherapy: A meta-analytic synthesis.
+\newblock \emph{Psychotherapy} 55, 316--340.
+\newblock \doi{10.1037/pst0000172}
+\bibAnnoteFile{fluckiger2018}
 
-\bibitem[Topol(2019)]{topol2019}
-Eric~J. Topol.
-\newblock High-performance medicine: The convergence of human and artificial
-  intelligence.
-\newblock \emph{Nature Medicine}, 25:\penalty0 44--56, 2019.
-\newblock \doi{10.1038/s41591-018-0300-7}.
+\bibitem[{Guo et~al.(2024)Guo, Lai, Thygesen, Farrington, Keen, and Li}]{guo2024}
+Guo, Z., Lai, A., Thygesen, J.~H., Farrington, J., Keen, T., and Li, K. (2024).
+\newblock Large language models for mental health applications: Systematic review.
+\newblock \emph{JMIR Mental Health} 11, e57400.
+\newblock \doi{10.2196/57400}
+\bibAnnoteFile{guo2024}
 
-\bibitem[Abr\`amoff et~al.(2018)Abr\`amoff, Lavin, Birch, Shah, and
-  Folk]{abramoff2018}
-Michael~D. Abr\`amoff, Philip~T. Lavin, Michele Birch, Nilay Shah, and James~C.
-  Folk.
-\newblock Pivotal trial of an autonomous {AI}-based diagnostic system for
-  detection of diabetic retinopathy in primary care offices.
-\newblock \emph{npj Digital Medicine}, 1:\penalty0 39, 2018.
-\newblock \doi{10.1038/s41746-018-0040-6}.
+\bibitem[{Hua et~al.(2025)Hua, Na, Li et~al.}]{hua2025}
+Hua, Y., Na, H., Li, Z., et~al. (2025).
+\newblock A scoping review of large language models for generative tasks in mental health care.
+\newblock \emph{npj Digital Medicine} 8, 230.
+\newblock \doi{10.1038/s41746-025-01611-4}
+\bibAnnoteFile{hua2025}
 
-\bibitem[{U.S. Food and Drug Administration}(2018)]{fda-idx}
-{U.S. Food and Drug Administration}.
-\newblock De novo classification request for {IDx-DR}, {DEN180001}.
-\newblock \url{https://www.accessdata.fda.gov/cdrh_docs/reviews/DEN180001.pdf},
-  2018.
+\bibitem[{Hudon and Stip(2025)}]{hudon2025}
+Hudon, A. and Stip, E. (2025).
+\newblock Delusional experiences emerging from artificial intelligence chatbot interactions or ``{AI} psychosis''.
+\newblock \emph{JMIR Mental Health} 12, e85799.
+\newblock \doi{10.2196/85799}
+\bibAnnoteFile{hudon2025}
 
-\bibitem[L\aa{}ng et~al.(2023)L\aa{}ng, Josefsson, Larsson, et~al.]{lang2023}
-Kristina L\aa{}ng, Viktoria Josefsson, Anna-Maria Larsson, et~al.
-\newblock Artificial intelligence-supported screen reading versus standard
-  double reading in the {Mammography Screening with Artificial Intelligence}
-  trial ({MASAI}): A clinical safety analysis of a randomised, controlled,
-  non-inferiority, single-blinded, screening accuracy study.
-\newblock \emph{The Lancet Oncology}, 24\penalty0 (8):\penalty0 936--944, 2023.
-\newblock \doi{10.1016/S1470-2045(23)00298-X}.
+\bibitem[{Inkster et~al.(2018)Inkster, Sarda, and Subramanian}]{inkster2018}
+Inkster, B., Sarda, S., and Subramanian, V. (2018).
+\newblock An empathy-driven, conversational artificial intelligence agent ({Wysa}) for digital mental well-being: Real-world data evaluation mixed-methods study.
+\newblock \emph{JMIR mHealth and uHealth} 6, e12106.
+\newblock \doi{10.2196/12106}
+\bibAnnoteFile{inkster2018}
 
-\bibitem[Eisemann et~al.(2025)Eisemann, Bunk, Mukama, et~al.]{eisemann2025}
-Nora Eisemann, Stefan Bunk, Trasias Mukama, et~al.
-\newblock Nationwide real-world implementation of {AI} for cancer detection in
-  population-based mammography screening.
-\newblock \emph{Nature Medicine}, 31:\penalty0 917--924, 2025.
-\newblock \doi{10.1038/s41591-024-03408-6}.
+\bibitem[{Jaspers(1963)}]{jaspers1963}
+Jaspers, K. (1963).
+\newblock \emph{General Psychopathology} (Chicago: University of Chicago Press).
+\newblock Translated by J. Hoenig and M. W. Hamilton
+\bibAnnoteFile{jaspers1963}
 
-\bibitem[Repici et~al.(2020)Repici, Badalamenti, Maselli, et~al.]{repici2020}
-Alessandro Repici, Matteo Badalamenti, Roberta Maselli, et~al.
-\newblock Efficacy of real-time computer-aided detection of colorectal
-  neoplasia in a randomized trial.
-\newblock \emph{Gastroenterology}, 159\penalty0 (2):\penalty0 512--520.e7,
-  2020.
-\newblock \doi{10.1053/j.gastro.2020.04.062}.
+\bibitem[{Kendler(2012)}]{kendler2012}
+Kendler, K.~S. (2012).
+\newblock The dappled nature of causes of psychiatric illness: Replacing the organic--functional/hardware--software dichotomy with empirically based pluralism.
+\newblock \emph{Molecular Psychiatry} 17, 377--388.
+\newblock \doi{10.1038/mp.2011.182}
+\bibAnnoteFile{kendler2012}
 
-\bibitem[{U.S. Food and Drug Administration}(2021{\natexlab{a}})]{fda-gigenius}
-{U.S. Food and Drug Administration}.
-\newblock De novo classification request for {GI Genius}, {DEN200055}.
-\newblock \url{https://www.accessdata.fda.gov/cdrh_docs/reviews/DEN200055.pdf},
-  2021{\natexlab{a}}.
+\bibitem[{Kendler(2016)}]{kendler2016}
+Kendler, K.~S. (2016).
+\newblock The nature of psychiatric disorders.
+\newblock \emph{World Psychiatry} 15, 5--12.
+\newblock \doi{10.1002/wps.20292}
+\bibAnnoteFile{kendler2016}
 
-\bibitem[{U.S. Food and Drug Administration}(2021{\natexlab{b}})]{fda-paige}
-{U.S. Food and Drug Administration}.
-\newblock De novo classification request for {Paige Prostate}, {DEN200080}.
-\newblock \url{https://www.accessdata.fda.gov/cdrh_docs/reviews/DEN200080.pdf},
-  2021{\natexlab{b}}.
+\bibitem[{Kendler et~al.(2011)Kendler, Zachar, and Craver}]{kendler2011}
+Kendler, K.~S., Zachar, P., and Craver, C. (2011).
+\newblock What kinds of things are psychiatric disorders?
+\newblock \emph{Psychological Medicine} 41, 1143--1150.
+\newblock \doi{10.1017/S0033291710001844}
+\bibAnnoteFile{kendler2011}
 
-\bibitem[Wong et~al.(2021)Wong, Otles, Donnelly, et~al.]{wong2021}
-Andrew Wong, Erkin Otles, John~P. Donnelly, et~al.
-\newblock External validation of a widely implemented proprietary sepsis
-  prediction model in hospitalized patients.
-\newblock \emph{JAMA Internal Medicine}, 181\penalty0 (8):\penalty0 1065--1070,
-  2021.
-\newblock \doi{10.1001/jamainternmed.2021.2626}.
+\bibitem[{L\aa{}ng et~al.(2023)L\aa{}ng, Josefsson, Larsson et~al.}]{lang2023}
+L\aa{}ng, K., Josefsson, V., Larsson, A.-M., et~al. (2023).
+\newblock Artificial intelligence-supported screen reading versus standard double reading in the {Mammography Screening with Artificial Intelligence} trial ({MASAI}): A clinical safety analysis of a randomised, controlled, non-inferiority, single-blinded, screening accuracy study.
+\newblock \emph{The Lancet Oncology} 24, 936--944.
+\newblock \doi{10.1016/S1470-2045(23)00298-X}
+\bibAnnoteFile{lang2023}
 
-\bibitem[Koutsouleris et~al.(2021)Koutsouleris, Dwyer, Degenhardt,
-  et~al.]{koutsouleris2021}
-Nikolaos Koutsouleris, Dominic~B. Dwyer, Franziska Degenhardt, et~al.
-\newblock Multimodal machine learning workflows for prediction of psychosis in
-  patients with clinical high-risk syndromes and recent-onset depression.
-\newblock \emph{JAMA Psychiatry}, 78\penalty0 (2):\penalty0 195--209, 2021.
-\newblock \doi{10.1001/jamapsychiatry.2020.3604}.
-
-\bibitem[Guo et~al.(2024)Guo, Lai, Thygesen, Farrington, Keen, and Li]{guo2024}
-Zhijun Guo, Alvina Lai, Johan~H. Thygesen, Joseph Farrington, Thomas Keen, and
-  Kezhi Li.
-\newblock Large language models for mental health applications: Systematic
-  review.
-\newblock \emph{JMIR Mental Health}, 11:\penalty0 e57400, 2024.
-\newblock \doi{10.2196/57400}.
-
-\bibitem[Hua et~al.(2025)Hua, Na, Li, et~al.]{hua2025}
-Yining Hua, Hongbin Na, Zehan Li, et~al.
-\newblock A scoping review of large language models for generative tasks in
-  mental health care.
-\newblock \emph{npj Digital Medicine}, 8:\penalty0 230, 2025.
-\newblock \doi{10.1038/s41746-025-01611-4}.
-
-\bibitem[{U.S. Food and Drug Administration}(2021{\natexlab{c}})]{fda-cognoa}
-{U.S. Food and Drug Administration}.
-\newblock De novo classification request for {Cognoa ASD Diagnosis Aid},
-  {DEN200069}.
-\newblock \url{https://www.accessdata.fda.gov/cdrh_docs/reviews/DEN200069.pdf},
-  2021{\natexlab{c}}.
-
-\bibitem[Onnela and Rauch(2016)]{onnela2016}
-Jukka-Pekka Onnela and Scott~L. Rauch.
-\newblock Harnessing smartphone-based digital phenotyping to enhance behavioral
-  and mental health.
-\newblock \emph{Neuropsychopharmacology}, 41:\penalty0 1691--1696, 2016.
-\newblock \doi{10.1038/npp.2016.7}.
-
-\bibitem[Torous et~al.(2017)Torous, Onnela, and Keshavan]{torous2017}
-John Torous, Jukka-Pekka Onnela, and Matcheri Keshavan.
-\newblock New dimensions and new tools to realize the potential of {RDoC}:
-  Digital phenotyping via smartphones and connected devices.
-\newblock \emph{Translational Psychiatry}, 7\penalty0 (3):\penalty0 e1053,
-  2017.
-\newblock \doi{10.1038/tp.2017.25}.
-
-\bibitem[Heinz et~al.(2025)Heinz, Mackin, Trudeau, Bhattacharya, Wang,
-  et~al.]{heinz2025}
-Michael~V. Heinz, Daniel~M. Mackin, Brianna~M. Trudeau, Sukanya Bhattacharya,
-  Yinzhou Wang, et~al.
-\newblock Randomized trial of a generative {AI} chatbot for mental health
-  treatment.
-\newblock \emph{NEJM AI}, 2\penalty0 (4), 2025.
-\newblock \doi{10.1056/AIoa2400802}.
-
-\bibitem[Li et~al.(2023)Li, Zhang, Lee, Kraut, and Mohr]{li2023}
-Han Li, Renwen Zhang, Yi-Chieh Lee, Robert~E. Kraut, and David~C. Mohr.
-\newblock Systematic review and meta-analysis of {AI}-based conversational
-  agents for promoting mental health and well-being.
-\newblock \emph{npj Digital Medicine}, 6:\penalty0 236, 2023.
-\newblock \doi{10.1038/s41746-023-00979-5}.
-
-\bibitem[Lee et~al.(2024)Lee, Suh, Zhan, Li, and Ong]{lee2024}
-Young-Ku Lee, Jaegul Suh, Hongli Zhan, Junyi~Jessy Li, and Desmond~C. Ong.
+\bibitem[{Lee et~al.(2024)Lee, Suh, Zhan, Li, and Ong}]{lee2024empathic}
+Lee, Y.~K., Suh, J., Zhan, H., Li, J.~J., and Ong, D.~C. (2024).
 \newblock Large language models produce responses perceived to be empathic.
-\newblock \url{https://arxiv.org/abs/2403.18148}, 2024.
-\newblock Preprint.
+\newblock \emph{arXiv preprint arXiv:2403.18148} \doi{10.48550/arXiv.2403.18148}
+\bibAnnoteFile{lee2024empathic}
 
-\bibitem[Welivita and Pu(2024)]{welivita2024}
-Anuradha Welivita and Pearl Pu.
+\bibitem[{Morrin et~al.(2026)Morrin, Nicholls, Levin, Yiend, Iyengar, DelGuidice et~al.}]{morrin2026}
+Morrin, H., Nicholls, L., Levin, M., Yiend, J., Iyengar, U., DelGuidice, F., et~al. (2026).
+\newblock Artificial intelligence-associated delusions and large language models: Risks, mechanisms of delusion co-creation, and safeguarding strategies.
+\newblock \emph{The Lancet Psychiatry} 13, 522--530.
+\newblock \doi{10.1016/S2215-0366(25)00396-7}
+\bibAnnoteFile{morrin2026}
+
+\bibitem[{Norcross and Wampold(2011)}]{norcross2011}
+Norcross, J.~C. and Wampold, B.~E. (2011).
+\newblock Evidence-based therapy relationships: Research conclusions and clinical practices.
+\newblock \emph{Psychotherapy} 48, 98--102.
+\newblock \doi{10.1037/a0022161}
+\bibAnnoteFile{norcross2011}
+
+\bibitem[{Onnela and Rauch(2016)}]{onnela2016}
+Onnela, J.-P. and Rauch, S.~L. (2016).
+\newblock Harnessing smartphone-based digital phenotyping to enhance behavioral and mental health.
+\newblock \emph{Neuropsychopharmacology} 41, 1691--1696.
+\newblock \doi{10.1038/npp.2016.7}
+\bibAnnoteFile{onnela2016}
+
+\bibitem[{Parnas et~al.(2013)Parnas, Sass, and Zahavi}]{parnas2013}
+Parnas, J., Sass, L.~A., and Zahavi, D. (2013).
+\newblock Rediscovering psychopathology: The epistemology and phenomenology of the psychiatric object.
+\newblock \emph{Schizophrenia Bulletin} 39, 270--277.
+\newblock \doi{10.1093/schbul/sbs153}
+\bibAnnoteFile{parnas2013}
+
+\bibitem[{Poston and Hanson(2010)}]{poston2010}
+Poston, J.~M. and Hanson, W.~E. (2010).
+\newblock Meta-analysis of psychological assessment as a therapeutic intervention.
+\newblock \emph{Psychological Assessment} 22, 203--212.
+\newblock \doi{10.1037/a0018679}
+\bibAnnoteFile{poston2010}
+
+\bibitem[{Ribeiro et~al.(2020)Ribeiro, Ribeiro, Paix\~ao et~al.}]{ribeiro2020}
+Ribeiro, A.~H., Ribeiro, M.~H., Paix\~ao, G. M.~M., et~al. (2020).
+\newblock Automatic diagnosis of the 12-lead {ECG} using a deep neural network.
+\newblock \emph{Nature Communications} 11, 1760.
+\newblock \doi{10.1038/s41467-020-15432-4}
+\bibAnnoteFile{ribeiro2020}
+
+\bibitem[{Safran and Muran(2000)}]{safran2000}
+Safran, J.~D. and Muran, J.~C. (2000).
+\newblock \emph{Negotiating the Therapeutic Alliance: A Relational Treatment Guide} (New York: Guilford Press)
+\bibAnnoteFile{safran2000}
+
+\bibitem[{Sander(1975)}]{sander1975}
+Sander, L.~W. (1975).
+\newblock Infant and caretaking environment investigation and conceptualization of adaptive behavior in a system of increasing complexity.
+\newblock In \emph{Explorations in Child Psychiatry}, ed. E.~J. Anthony (Boston: Springer). 129--166.
+\newblock \doi{10.1007/978-1-4684-2127-9_10}
+\bibAnnoteFile{sander1975}
+
+\bibitem[{Sander(2008)}]{sander2008}
+Sander, L.~W. (2008).
+\newblock \emph{Living Systems, Evolving Consciousness, and the Emerging Person: A Selection of Papers from the Life Work of Louis Sander} (New York: Analytic Press).
+\newblock Edited by Gherardo Amadei and Ilaria Bianchi
+\bibAnnoteFile{sander2008}
+
+\bibitem[{Sass et~al.(2011)Sass, Parnas, and Zahavi}]{sass2011}
+Sass, L., Parnas, J., and Zahavi, D. (2011).
+\newblock Phenomenological psychopathology and schizophrenia: Contemporary approaches and misunderstandings.
+\newblock \emph{Philosophy, Psychiatry, \& Psychology} 18, 1--23.
+\newblock \doi{10.1353/ppp.2011.0008}
+\bibAnnoteFile{sass2011}
+
+\bibitem[{Sharma et~al.(2023)Sharma, Tong, Korbak, Duvenaud, Askell, Bowman et~al.}]{sharma2023sycophancy}
+Sharma, M., Tong, M., Korbak, T., Duvenaud, D., Askell, A., Bowman, S.~R., et~al. (2023).
+\newblock Towards understanding sycophancy in language models.
+\newblock \emph{arXiv preprint arXiv:2310.13548} \doi{10.48550/arXiv.2310.13548}
+\bibAnnoteFile{sharma2023sycophancy}
+
+\bibitem[{Stanghellini and Fuchs(2013)}]{stanghellini2013}
+Stanghellini, G. and Fuchs, T. (eds.) (2013).
+\newblock \emph{One Century of Karl Jaspers' General Psychopathology} (Oxford: Oxford University Press)
+\bibAnnoteFile{stanghellini2013}
+
+\bibitem[{Stern et~al.(1998)Stern, Sander, Nahum, Harrison, Lyons-Ruth, Morgan et~al.}]{stern1998}
+Stern, D.~N., Sander, L.~W., Nahum, J.~P., Harrison, A.~M., Lyons-Ruth, K., Morgan, A.~C., et~al. (1998).
+\newblock Non-interpretive mechanisms in psychoanalytic therapy: The `something more' than interpretation.
+\newblock \emph{The International Journal of Psychoanalysis} 79, 903--921
+\bibAnnoteFile{stern1998}
+
+\bibitem[{Torous et~al.(2017)Torous, Onnela, and Keshavan}]{torous2017}
+Torous, J., Onnela, J.-P., and Keshavan, M. (2017).
+\newblock New dimensions and new tools to realize the potential of {RDoC}: Digital phenotyping via smartphones and connected devices.
+\newblock \emph{Translational Psychiatry} 7, e1053.
+\newblock \doi{10.1038/tp.2017.25}
+\bibAnnoteFile{torous2017}
+
+\bibitem[{Welivita and Pu(2024)}]{welivita2024empathetic}
+Welivita, A. and Pu, P. (2024).
 \newblock Are large language models more empathetic than humans?
-\newblock \url{https://arxiv.org/abs/2406.05063}, 2024.
-\newblock Preprint.
+\newblock \emph{arXiv preprint arXiv:2406.05063} \doi{10.48550/arXiv.2406.05063}
+\bibAnnoteFile{welivita2024empathetic}
 
-\bibitem[Holderried et~al.(2024)Holderried, Stegemann-Philipps, Herschbach,
-  et~al.]{holderried2024}
-Friederike Holderried, Christian Stegemann-Philipps, Lea Herschbach, et~al.
-\newblock A generative pretrained transformer ({GPT})-powered chatbot as a
-  simulated patient to practice history taking: Prospective, mixed methods
-  study.
-\newblock \emph{JMIR Medical Education}, 10:\penalty0 e53961, 2024.
-\newblock \doi{10.2196/53961}.
-
-\bibitem[{Limbic}(2026)]{limbic}
-{Limbic}.
-\newblock Limbic access: The clinical {AI} assistant for intake and assessment.
-\newblock \url{https://limbic.ai/access}, 2026.
-\newblock Pagina ufficiale, consultata giugno 2026.
-
-\bibitem[{Wysa}(2026)]{wysa}
-{Wysa}.
-\newblock Everyday mental health.
-\newblock \url{https://www.wysa.com/}, 2026.
-\newblock Pagina ufficiale, consultata giugno 2026.
-
-\bibitem[Inkster et~al.(2018)Inkster, Sarda, and Subramanian]{inkster2018}
-Becky Inkster, Shubhankar Sarda, and Vinod Subramanian.
-\newblock An empathy-driven, conversational artificial intelligence agent
-  ({Wysa}) for digital mental well-being: Real-world data evaluation
-  mixed-methods study.
-\newblock \emph{JMIR mHealth and uHealth}, 6\penalty0 (11):\penalty0 e12106,
-  2018.
-\newblock \doi{10.2196/12106}.
-
-\bibitem[Fitzpatrick et~al.(2017)Fitzpatrick, Darcy, and
-  Vierhile]{fitzpatrick2017}
-Kathleen~Kara Fitzpatrick, Alison Darcy, and Molly Vierhile.
-\newblock Delivering cognitive behavior therapy to young adults with symptoms
-  of depression and anxiety using a fully automated conversational agent
-  ({Woebot}): A randomized controlled trial.
-\newblock \emph{JMIR Mental Health}, 4\penalty0 (2):\penalty0 e19, 2017.
-\newblock \doi{10.2196/mental.7785}.
-
-\bibitem[{Woebot Health}(2026)]{woebot}
-{Woebot Health}.
-\newblock Technology overview.
-\newblock \url{https://woebothealth.com/technology-overview/}, 2026.
-\newblock Pagina ufficiale, consultata giugno 2026.
-
-\bibitem[{Eleos Health}(2026)]{eleos}
-{Eleos Health}.
-\newblock The system of action for community-based care.
-\newblock \url{https://eleos.health/}, 2026.
-\newblock Pagina ufficiale, consultata giugno 2026.
-
-\bibitem[{Lyssn}(2026)]{lyssn}
-{Lyssn}.
-\newblock Training and quality improvement {AI} solutions.
-\newblock \url{https://www.lyssn.io/}, 2026.
-\newblock Pagina ufficiale, consultata giugno 2026.
-
-\bibitem[{NeuroFlow}(2026)]{neuroflow}
-{NeuroFlow}.
-\newblock Behavioral health data analytics.
-\newblock \url{https://www.neuroflow.com/}, 2026.
-\newblock Pagina ufficiale, consultata giugno 2026.
-
-\bibitem[{Aiberry}(2026)]{aiberry}
-{Aiberry}.
-\newblock {AI}-powered mental health screening platform.
-\newblock \url{https://www.aiberry.com/}, 2026.
-\newblock Pagina ufficiale, consultata giugno 2026.
-
-\bibitem[{Ellipsis Health}(2026)]{ellipsis}
-{Ellipsis Health}.
-\newblock Sage {AI} care manager.
-\newblock \url{https://ellipsishealth.com/}, 2026.
-\newblock Pagina ufficiale, consultata giugno 2026.
-
-\bibitem[{The Verge}(2026)]{verge2026}
-{The Verge}.
-\newblock It's not easy to get depression-detecting {AI} through the {FDA},
-  2026.
-\newblock Articolo giornalistico.
-
-\bibitem[{Associated Press}(2024)]{ap2024}
-{Associated Press}.
-\newblock {AI} chatbots are here to help with your mental health, despite
-  limited evidence they work, 2024.
-\newblock Articolo giornalistico.
-
-\bibitem[{European Commission}(2026)]{euai}
-{European Commission}.
-\newblock Regulatory framework on artificial intelligence ({AI Act}).
-\newblock
-  \url{https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai},
-  2026.
-\newblock Consultato giugno 2026.
-
-\bibitem[{American Psychiatric Association}(2026)]{apa}
-{American Psychiatric Association}.
-\newblock Applications of artificial intelligence in mental health care.
-\newblock
-  \url{https://www.psychiatry.org/psychiatrists/practice/artificial-intelligence/applications},
-  2026.
-\newblock Consultato giugno 2026.
-
-\bibitem[{U.S. Food and Drug Administration}(2026)]{fda-aiml}
-{U.S. Food and Drug Administration}.
-\newblock Artificial intelligence-enabled medical devices.
-\newblock
-  \url{https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-enabled-medical-devices},
-  2026.
-\newblock FDA Digital Health Center of Excellence. Consultato giugno 2026.
+\bibitem[{Yao et~al.(2021)Yao, Rushlow, Inselman et~al.}]{yao2021}
+Yao, X., Rushlow, D.~R., Inselman, J.~W., et~al. (2021).
+\newblock Artificial intelligence-enabled electrocardiograms for identification of patients with low ejection fraction: A pragmatic, randomized clinical trial.
+\newblock \emph{Nature Medicine} 27, 815--819.
+\newblock \doi{10.1038/s41591-021-01335-4}
+\bibAnnoteFile{yao2021}
 
 \end{thebibliography}

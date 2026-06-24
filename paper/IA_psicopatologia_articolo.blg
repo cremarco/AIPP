@@ -1,46 +1,47 @@
 This is BibTeX, Version 0.99d (TeX Live 2025)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: IA_psicopatologia_articolo.aux
-The style file: unsrtnat.bst
+The style file: Frontiers-Harvard.bst
 Database file #1: references.bib
-You've used 43 entries,
-            2481 wiz_defined-function locations,
-            780 strings with 12597 characters,
-and the built_in function-call counts, 14792 in all, are:
-= -- 1254
-> -- 743
-< -- 23
-+ -- 306
-- -- 218
-* -- 1007
-:= -- 2411
-add.period$ -- 163
-call.type$ -- 43
-change.case$ -- 86
-chr.to.int$ -- 41
-cite$ -- 43
-duplicate$ -- 701
-empty$ -- 1412
-format.name$ -- 266
-if$ -- 3151
-int.to.chr$ -- 3
-int.to.str$ -- 44
-missing$ -- 20
-newline$ -- 257
-num.names$ -- 129
-pop$ -- 400
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+You've used 34 entries,
+            3029 wiz_defined-function locations,
+            840 strings with 12663 characters,
+and the built_in function-call counts, 22952 in all, are:
+= -- 1939
+> -- 1227
+< -- 14
++ -- 605
+- -- 332
+* -- 1679
+:= -- 3450
+add.period$ -- 89
+call.type$ -- 34
+change.case$ -- 279
+chr.to.int$ -- 35
+cite$ -- 68
+duplicate$ -- 1483
+empty$ -- 1581
+format.name$ -- 433
+if$ -- 4649
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 343
+newline$ -- 238
+num.names$ -- 140
+pop$ -- 692
 preamble$ -- 1
-purify$ -- 43
+purify$ -- 246
 quote$ -- 0
-skip$ -- 439
+skip$ -- 817
 stack$ -- 0
-substring$ -- 471
-swap$ -- 90
+substring$ -- 901
+swap$ -- 713
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 301
+type$ -- 288
 warning$ -- 0
-while$ -- 115
+while$ -- 144
 width$ -- 0
-write$ -- 611
+write$ -- 530
