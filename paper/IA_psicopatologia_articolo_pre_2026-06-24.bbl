@@ -1,0 +1,128 @@
+\begin{thebibliography}{20}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Ribeiro et~al.(2020)Ribeiro, Ribeiro, Paix\~ao, et~al.]{ribeiro2020}
+Ant\^onio~H. Ribeiro, Manoel~Horta Ribeiro, Gabriela M.~M. Paix\~ao, et~al.
+\newblock Automatic diagnosis of the 12-lead {ECG} using a deep neural network.
+\newblock \emph{Nature Communications}, 11:\penalty0 1760, 2020.
+\newblock \doi{10.1038/s41467-020-15432-4}.
+
+\bibitem[Yao et~al.(2021)Yao, Rushlow, Inselman, et~al.]{yao2021}
+Xiaoxi Yao, David~R. Rushlow, Jonathan~W. Inselman, et~al.
+\newblock Artificial intelligence-enabled electrocardiograms for identification of patients with low ejection fraction: A pragmatic, randomized clinical trial.
+\newblock \emph{Nature Medicine}, 27:\penalty0 815--819, 2021.
+\newblock \doi{10.1038/s41591-021-01335-4}.
+
+\bibitem[Toma\v{s}ev et~al.(2019)Toma\v{s}ev, Glorot, Rae, et~al.]{tomasev2019}
+Nenad Toma\v{s}ev, Xavier Glorot, Jack~W. Rae, et~al.
+\newblock A clinically applicable approach to continuous prediction of future acute kidney injury.
+\newblock \emph{Nature}, 572:\penalty0 116--119, 2019.
+\newblock \doi{10.1038/s41586-019-1390-1}.
+
+\bibitem[Adams et~al.(2022)Adams, Henry, Sridharan, et~al.]{adams2022}
+Roy Adams, Katharine~E. Henry, Anirudh Sridharan, et~al.
+\newblock Prospective, multi-site study of patient outcomes after implementation of the {TREWS} machine learning-based early warning system for sepsis.
+\newblock \emph{Nature Medicine}, 28:\penalty0 1455--1460, 2022.
+\newblock \doi{10.1038/s41591-022-01894-0}.
+
+\bibitem[Topol(2019)]{topol2019}
+Eric~J. Topol.
+\newblock High-performance medicine: The convergence of human and artificial intelligence.
+\newblock \emph{Nature Medicine}, 25:\penalty0 44--56, 2019.
+\newblock \doi{10.1038/s41591-018-0300-7}.
+
+\bibitem[Abr\`amoff et~al.(2018)Abr\`amoff, Lavin, Birch, Shah, and Folk]{abramoff2018}
+Michael~D. Abr\`amoff, Philip~T. Lavin, Michele Birch, Nilay Shah, and James~C. Folk.
+\newblock Pivotal trial of an autonomous {AI}-based diagnostic system for detection of diabetic retinopathy in primary care offices.
+\newblock \emph{npj Digital Medicine}, 1:\penalty0 39, 2018.
+\newblock \doi{10.1038/s41746-018-0040-6}.
+
+\bibitem[L\aa{}ng et~al.(2023)L\aa{}ng, Josefsson, Larsson, et~al.]{lang2023}
+Kristina L\aa{}ng, Viktoria Josefsson, Anna-Maria Larsson, et~al.
+\newblock Artificial intelligence-supported screen reading versus standard double reading in the {Mammography Screening with Artificial Intelligence} trial ({MASAI}): A clinical safety analysis of a randomised, controlled, non-inferiority, single-blinded, screening accuracy study.
+\newblock \emph{The Lancet Oncology}, 24\penalty0 (8):\penalty0 936--944, 2023.
+\newblock \doi{10.1016/S1470-2045(23)00298-X}.
+
+\bibitem[Eisemann et~al.(2025)Eisemann, Bunk, Mukama, et~al.]{eisemann2025}
+Nora Eisemann, Stefan Bunk, Trasias Mukama, et~al.
+\newblock Nationwide real-world implementation of {AI} for cancer detection in population-based mammography screening.
+\newblock \emph{Nature Medicine}, 31:\penalty0 917--924, 2025.
+\newblock \doi{10.1038/s41591-024-03408-6}.
+
+\bibitem[Repici et~al.(2020)Repici, Badalamenti, Maselli, et~al.]{repici2020}
+Alessandro Repici, Matteo Badalamenti, Roberta Maselli, et~al.
+\newblock Efficacy of real-time computer-aided detection of colorectal neoplasia in a randomized trial.
+\newblock \emph{Gastroenterology}, 159\penalty0 (2):\penalty0 512--520.e7, 2020.
+\newblock \doi{10.1053/j.gastro.2020.04.062}.
+
+\bibitem[Wong et~al.(2021)Wong, Otles, Donnelly, et~al.]{wong2021}
+Andrew Wong, Erkin Otles, John~P. Donnelly, et~al.
+\newblock External validation of a widely implemented proprietary sepsis prediction model in hospitalized patients.
+\newblock \emph{JAMA Internal Medicine}, 181\penalty0 (8):\penalty0 1065--1070, 2021.
+\newblock \doi{10.1001/jamainternmed.2021.2626}.
+
+\bibitem[Koutsouleris et~al.(2021)Koutsouleris, Dwyer, Degenhardt, et~al.]{koutsouleris2021}
+Nikolaos Koutsouleris, Dominic~B. Dwyer, Franziska Degenhardt, et~al.
+\newblock Multimodal machine learning workflows for prediction of psychosis in patients with clinical high-risk syndromes and recent-onset depression.
+\newblock \emph{JAMA Psychiatry}, 78\penalty0 (2):\penalty0 195--209, 2021.
+\newblock \doi{10.1001/jamapsychiatry.2020.3604}.
+
+\bibitem[Guo et~al.(2024)Guo, Lai, Thygesen, Farrington, Keen, and Li]{guo2024}
+Zhijun Guo, Alvina Lai, Johan~H. Thygesen, Joseph Farrington, Thomas Keen, and Kezhi Li.
+\newblock Large language models for mental health applications: Systematic review.
+\newblock \emph{JMIR Mental Health}, 11:\penalty0 e57400, 2024.
+\newblock \doi{10.2196/57400}.
+
+\bibitem[Hua et~al.(2025)Hua, Na, Li, et~al.]{hua2025}
+Yining Hua, Hongbin Na, Zehan Li, et~al.
+\newblock A scoping review of large language models for generative tasks in mental health care.
+\newblock \emph{npj Digital Medicine}, 8:\penalty0 230, 2025.
+\newblock \doi{10.1038/s41746-025-01611-4}.
+
+\bibitem[Onnela and Rauch(2016)]{onnela2016}
+Jukka-Pekka Onnela and Scott~L. Rauch.
+\newblock Harnessing smartphone-based digital phenotyping to enhance behavioral and mental health.
+\newblock \emph{Neuropsychopharmacology}, 41:\penalty0 1691--1696, 2016.
+\newblock \doi{10.1038/npp.2016.7}.
+
+\bibitem[Torous et~al.(2017)Torous, Onnela, and Keshavan]{torous2017}
+John Torous, Jukka-Pekka Onnela, and Matcheri Keshavan.
+\newblock New dimensions and new tools to realize the potential of {RDoC}: Digital phenotyping via smartphones and connected devices.
+\newblock \emph{Translational Psychiatry}, 7\penalty0 (3):\penalty0 e1053, 2017.
+\newblock \doi{10.1038/tp.2017.25}.
+
+\bibitem[Heinz et~al.(2025)Heinz, Mackin, Trudeau, Bhattacharya, Wang, et~al.]{heinz2025}
+Michael~V. Heinz, Daniel~M. Mackin, Brianna~M. Trudeau, Sukanya Bhattacharya, Yinzhou Wang, et~al.
+\newblock Randomized trial of a generative {AI} chatbot for mental health treatment.
+\newblock \emph{NEJM AI}, 2\penalty0 (4), 2025.
+\newblock \doi{10.1056/AIoa2400802}.
+
+\bibitem[Li et~al.(2023)Li, Zhang, Lee, Kraut, and Mohr]{li2023}
+Han Li, Renwen Zhang, Yi-Chieh Lee, Robert~E. Kraut, and David~C. Mohr.
+\newblock Systematic review and meta-analysis of {AI}-based conversational agents for promoting mental health and well-being.
+\newblock \emph{npj Digital Medicine}, 6:\penalty0 236, 2023.
+\newblock \doi{10.1038/s41746-023-00979-5}.
+
+\bibitem[Holderried et~al.(2024)Holderried, Stegemann-Philipps, Herschbach, et~al.]{holderried2024}
+Friederike Holderried, Christian Stegemann-Philipps, Lea Herschbach, et~al.
+\newblock A generative pretrained transformer ({GPT})-powered chatbot as a simulated patient to practice history taking: Prospective, mixed methods study.
+\newblock \emph{JMIR Medical Education}, 10:\penalty0 e53961, 2024.
+\newblock \doi{10.2196/53961}.
+
+\bibitem[Inkster et~al.(2018)Inkster, Sarda, and Subramanian]{inkster2018}
+Becky Inkster, Shubhankar Sarda, and Vinod Subramanian.
+\newblock An empathy-driven, conversational artificial intelligence agent ({Wysa}) for digital mental well-being: Real-world data evaluation mixed-methods study.
+\newblock \emph{JMIR mHealth and uHealth}, 6\penalty0 (11):\penalty0 e12106, 2018.
+\newblock \doi{10.2196/12106}.
+
+\bibitem[Fitzpatrick et~al.(2017)Fitzpatrick, Darcy, and Vierhile]{fitzpatrick2017}
+Kathleen~Kara Fitzpatrick, Alison Darcy, and Molly Vierhile.
+\newblock Delivering cognitive behavior therapy to young adults with symptoms of depression and anxiety using a fully automated conversational agent ({Woebot}): A randomized controlled trial.
+\newblock \emph{JMIR Mental Health}, 4\penalty0 (2):\penalty0 e19, 2017.
+\newblock \doi{10.2196/mental.7785}.
+
+\end{thebibliography}

@@ -1,0 +1,70 @@
+This is BibTeX, Version 0.99d (TeX Live 2025)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: IA_psicopatologia_articolo_pre_2026-06-24.aux
+The style file: unsrtnat.bst
+Database file #1: references.bib
+Warning--I didn't find a database entry for "fda-dhac"
+Warning--I didn't find a database entry for "who2024"
+Warning--I didn't find a database entry for "grabb2024"
+Warning--I didn't find a database entry for "dohnany2025"
+Warning--I didn't find a database entry for "fda-idx"
+Warning--I didn't find a database entry for "fda-gigenius"
+Warning--I didn't find a database entry for "fda-paige"
+Warning--I didn't find a database entry for "fda-cognoa"
+Warning--I didn't find a database entry for "lee2024"
+Warning--I didn't find a database entry for "welivita2024"
+Warning--I didn't find a database entry for "limbic"
+Warning--I didn't find a database entry for "wysa"
+Warning--I didn't find a database entry for "woebot"
+Warning--I didn't find a database entry for "eleos"
+Warning--I didn't find a database entry for "lyssn"
+Warning--I didn't find a database entry for "neuroflow"
+Warning--I didn't find a database entry for "aiberry"
+Warning--I didn't find a database entry for "ellipsis"
+Warning--I didn't find a database entry for "verge2026"
+Warning--I didn't find a database entry for "ap2024"
+Warning--I didn't find a database entry for "euai"
+Warning--I didn't find a database entry for "apa"
+Warning--I didn't find a database entry for "fda-aiml"
+You've used 20 entries,
+            2481 wiz_defined-function locations,
+            711 strings with 9580 characters,
+and the built_in function-call counts, 8572 in all, are:
+= -- 714
+> -- 526
+< -- 2
++ -- 196
+- -- 156
+* -- 751
+:= -- 1443
+add.period$ -- 80
+call.type$ -- 20
+change.case$ -- 40
+chr.to.int$ -- 20
+cite$ -- 20
+duplicate$ -- 379
+empty$ -- 722
+format.name$ -- 178
+if$ -- 1768
+int.to.chr$ -- 1
+int.to.str$ -- 21
+missing$ -- 20
+newline$ -- 128
+num.names$ -- 60
+pop$ -- 120
+preamble$ -- 1
+purify$ -- 20
+quote$ -- 0
+skip$ -- 205
+stack$ -- 0
+substring$ -- 425
+swap$ -- 40
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 140
+warning$ -- 0
+while$ -- 69
+width$ -- 0
+write$ -- 307
+(There were 23 warnings)
